@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--This is a simple program to calculate your age at any given year.-->
+<!--I don't own any rights to the Delorean or Back to the Future.-->
+
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+
+    <div id="content">
+    <center>
+      <h1><em>A SIMPLE AGE CALCULATOR</em></h1><br>
+    </center>
+    <div id="column1">
+      <strong>ENTER YOUR DATE OF BIRTH:</strong>
+      <br>
+      (month/date/year)
+      <br>
+      <br>
+      <br>
+      <strong>CHOOSE ANY YEAR:
+      </strong>
+    </div>
+
+    <div id="column2">
+      <form name="agecalculator"> <input type="text" class="textbox" id="dob" style="width:70px"><br> <br><br>
+      <input type="number" class="textbox" id="futureyear" style="width:50px">
+      </form>
+      <br><br>
+      </div>
+      <center><input type="button" value="Let's go!" id="submitbutton" onclick="flashForward()"></center><br>
+      <center>
+        <div id="result">
+
+        </div>
+      </center>
+      </div>
+      <div id="copyright">
+        &copy; 2019<script>new Date().getFullYear()>2019&&document.write("-"+new Date().getFullYear());</script>, HOV4.
+      </div>
+  </body>
+  <script src="script.js"></script>
+
+</html>
